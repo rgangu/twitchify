@@ -1,0 +1,97 @@
+body {
+    white-space: nowrap;
+    min-width: 19em;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.6em;
+    line-height: 1.6em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+/* HEADER */
+.header {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.header img {
+    width: 1.7em;
+    height: 1.7em;
+    vertical-align: middle; /* align the image with the text */
+    margin-right: 0.5em;
+}
+
+/* SFM STATE */
+#sfmStateContainer {
+    height: 2em; /* make at least as high as the icon - this way the div always has the same height, whether the icon is displayed or not */
+    margin: 0.6em 0.5em 0.6em 1em;
+}
+
+#sfmStateContainer img {
+    width: 2em;
+    height: 2em;
+    vertical-align: top; /* align the image with the text */
+    margin-right: 0.6em;
+}
+
+#sfmStateLabel {
+    font-size: 1.3em;
+}
+
+/* SFM ENABLED */
+#sfmEnabledContainer {
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+}
+
+.sfmEnabledLevelContainer {
+    margin-top: 1em;
+    margin-bottom: 1.2em;
+}
+
+.sfmEnabledLevelContainer img {
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: bottom; /* align the image with the text */
+    margin-right: 0.5em;
+}
+
+.sfmEnabledLevelBodyContainer {
+    margin-left: 2.1em;
+}
+
+.sfmEnabledSettingContainer {
+    margin-top: 0.5em;
+}
+
+.qualifiedName {
+    color: grey;
+    font-weight: bold;
+}
+
+.ineffective {
+    color: grey;
+}
+
+#sfmEnabledOnChannel {
+    margin-top: 0; /* override Chrome default to allow custom margins*/
+}
+
+/* BUTTON BAR */
+#buttonBar {
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+}

@@ -1,0 +1,77 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the "browser_action" field in manifest.json
+ contains the "default_popup" key with value "popup.html".
+ -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Open End</title>
+    <link rel="stylesheet" type="text/css" href="../common/common.css">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="../common/common.js"></script>
+    <script src="popup.js"></script>
+</head>
+<body>
+
+<div class="header">
+    <h1><img class="appIcon"/>Open End</h1>
+</div>
+
+<hr/>
+
+<div id="sfmStateContainer">
+    <img id="sfmStateIcon" src="" class="opnd-hidden"/>
+    <span id="sfmStateLabel"></span>
+</div>
+
+<hr/>
+
+<div id="sfmEnabledContainer">
+
+    <h2 id="sfmEnabledLabel"></h2>
+
+    <div id="sfmEnabledGlobalContainer" class="sfmEnabledLevelContainer">
+        <h3><img id="sfmEnabledGlobalIcon"/><span id="sfmEnabledGlobalLabel"></span></h3>
+        <div class="sfmEnabledLevelBodyContainer">
+            <div class="sfmEnabledSettingContainer">
+                <select id="sfmEnabledGlobal"></select>
+            </div>
+        </div>
+    </div>
+
+    <div id="sfmEnabledOnPlatformContainer" class="sfmEnabledLevelContainer opnd-hidden">
+        <h3><img id="platformIcon"/><span id="platform" data-platformname=""></span></h3>
+        <div class="sfmEnabledLevelBodyContainer">
+            <div class="qualifiedName">
+                <span id="platformName"></span>
+            </div>
+            <div class="sfmEnabledSettingContainer">
+                <select id="sfmEnabledOnPlatform"></select>
+            </div>
+        </div>
+    </div>
+
+    <div id="sfmEnabledOnChannelContainer" class="sfmEnabledLevelContainer opnd-hidden">
+        <h3><img id="channelIcon"/><span id="channel" data-channelqualifiedname="" data-channeldisplayname=""></span>
+        </h3>
+        <div class="sfmEnabledLevelBodyContainer">
+            <div class="qualifiedName">
+                <span id="channelQualifiedName"></span>
+            </div>
+            <div class="sfmEnabledSettingContainer">
+                <input type="checkbox" id="sfmEnabledOnChannel"><span id="sfmEnabledOnChannelCheckboxLabel"></span>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<hr/>
+
+<div id="buttonBar">
+    <button id="openOptions"></button>
+</div>
+
+</body>
+</html>

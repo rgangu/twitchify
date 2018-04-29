@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+    <script src="../common/common.js"></script>
+    <script src="options.js"></script>
+</head>
+
+<body>
+
+<div id="options">
+
+    <hr/>
+
+    <div id="sfmEnabledContainer" class="optionsSectionContainer">
+
+        <h2 id="sfmEnabledLabel"></h2>
+
+        <div id="sfmEnabledGlobalContainer">
+            <h3 id="sfmEnabledGlobalLabel"></h3>
+            <div><select id="sfmEnabledGlobal"></select></div>
+        </div>
+
+        <div id="sfmEnabledOnPlatformContainer">
+            <h3 id="sfmEnabledPlatformsLabel"></h3>
+            <div id="sfmEnabledPlatforms" class="formGrid">
+            </div>
+        </div>
+
+        <div id="sfmEnabledOnChannelContainer">
+            <h3 id="sfmEnabledChannelsLabel"></h3>
+            <div id="sfmEnabledChannelsGrid">
+                <!-- We need to set the background of this select to white in here to override the Chrome's default (grey; looks like it's disabled) -->
+                <select id="sfmEnabledChannels" multiple size="6" style="background: white;"></select>
+                <label id="sfmEnabledChannelToAddLabel" for="sfmEnabledChannelToAdd"></label>
+                <input type="text" id="sfmEnabledChannelToAdd">
+                <span id="sfmEnabledAddChannelCell"><button id="sfmEnabledAddChannel"></button></span>
+                <span id="sfmEnabledRemoveChannelCell"><button id="sfmEnabledRemoveChannel"></button></span>
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+
+    <div id="sfmCfgContainer" class="optionsSectionContainer">
+
+        <h2 id="sfmCfgLabel"></h2>
+
+        <div id="sfmCfgPlayerContainer">
+            <h3 id="sfmCfgPlayerLabel"></h3>
+            <div class="formGrid">
+                <label id="sfmCfgPlayerHideDurationLabel" for="sfmCfgPlayerHideDuration"></label>
+                <input type="checkBox" id="sfmCfgPlayerHideDuration">
+                <label id="sfmCfgPlayerJumpDistanceLabel" for="sfmCfgPlayerJumpDistance"></label>
+                <span><input id="sfmCfgPlayerJumpDistance"></span>
+            </div>
+        </div>
+
+        <div id="sfmCfgVideoListContainer">
+            <h3 id="sfmCfgVideoListLabel"></h3>
+            <div class="formGrid">
+                <label id="sfmCfgVideoListHideTitleLabel" for="sfmCfgVideoListHideTitle"></label>
+                <input type="checkBox" id="sfmCfgVideoListHideTitle">
+                <label id="sfmCfgVideoListHidePreviewLabel" for="sfmCfgVideoListHidePreview"></label>
+                <input type="checkBox" id="sfmCfgVideoListHidePreview">
+                <label id="sfmCfgVideoListHideDurationLabel" for="sfmCfgVideoListHideDuration"></label>
+                <input type="checkBox" id="sfmCfgVideoListHideDuration">
+            </div>
+        </div>
+    </div>
+
+    <hr/>
+
+    <div id="generalContainer" class="optionsSectionContainer">
+        <h2 id="generalLabel"></h2>
+        <div class="formGrid">
+            <label id="generalTheatreModeLabel" for="generalTheatreMode"></label>
+            <input type="checkBox" id="generalTheatreMode">
+        </div>
+    </div>
+
+</div>
+
+<hr/>
+
+<div id="buttonBar">
+    <div>
+        <button id="save"></button>
+        <button id="restoreDefaults"></button>
+    </div>
+    <div id="statusContainer">
+        <span id="status"></span>
+    </div>
+</div>
+
+</body>
+</html>

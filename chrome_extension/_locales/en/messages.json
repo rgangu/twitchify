@@ -1,0 +1,305 @@
+{
+    "manifest_description": {
+        "message": "Hides the duration of videos and other information on Twitch.tv to prevent spoilers when watching e-sports or sports videos.",
+        "description": "Extension description."
+    },
+    "player_showHideDuration_visible": {
+        "message": "Hide duration",
+        "description": "Label of the Show/Hide Duration button for the visible state."
+    },
+    "player_showHideDuration_hidden": {
+        "message": "Show duration",
+        "description": "Label of the Show/Hide Duration button for the hidden state."
+    },
+    "player_jumpBackward": {
+        "message": "Jump $JUMP_TIME$ backward",
+        "description": "Label of the Jump Backward button.",
+        "placeholders": {
+            "jump_time": {
+                "content": "$1",
+                "example": "2m"
+            }
+        }
+    },
+    "player_jumpForward": {
+        "message": "Jump $JUMP_TIME$ forward",
+        "description": "Label of the Jump Forward button.",
+        "placeholders": {
+            "jump_time": {
+                "content": "$1",
+                "example": "2m"
+            }
+        }
+    },
+    "player_jump_help": {
+        "message": "Format: \"2\" for 2 minutes or \"1h2m3s\" for 1 hour, 2 minutes and 3 seconds",
+        "description": "The help message to be displayed for the Jump Distance input."
+    },
+    "player_jump_err": {
+        "message": "Invalid jump distance",
+        "description": "The error message to be displayed if the Jump Distance is invalid."
+    },
+    "videoListItem_showHideTitle_visible": {
+        "message": "Hide title",
+        "description": "Label of the Show/Hide Title button for the visible state."
+    },
+    "videoListItem_showHideTitle_hidden": {
+        "message": "Show title",
+        "description": "Label of the Show/Hide Title button for the visible state."
+    },
+    "videoListItem_showHidePreview_visible": {
+        "message": "Hide preview",
+        "description": "Label of the Show/Hide Preview button for the visible state."
+    },
+    "videoListItem_showHidePreview_hidden": {
+        "message": "Show preview",
+        "description": "Label of the Show/Hide Preview button for the visible state."
+    },
+    "videoListItem_showHideDuration_visible": {
+        "message": "Hide duration",
+        "description": "Label of the Show/Hide Duration button for the visible state."
+    },
+    "videoListItem_showHideDuration_hidden": {
+        "message": "Show duration",
+        "description": "Label of the Show/Hide Duration button for the visible state."
+    },
+    "popup_sfmState_sfmBadge": {
+        "message": "SFM",
+        "description": ""
+    },
+    "popup_sfmState_UNSUPPORTED": {
+        "message": "SFM not supported here",
+        "description": ""
+    },
+    "popup_sfmState_UNSUPPORTED_tooltip": {
+        "message": "The current page is not a supported video platform",
+        "description": ""
+    },
+    "popup_sfmState_ACTIVE": {
+        "message": "SFM active",
+        "description": ""
+    },
+    "popup_sfmState_ACTIVE_tooltip": {
+        "message": "Spoiler-Free Mode is active",
+        "description": ""
+    },
+    "popup_sfmState_INACTIVE": {
+        "message": "SFM inactive",
+        "description": ""
+    },
+    "popup_sfmState_INACTIVE_tooltip": {
+        "message": "Spoiler-Free Mode is inactive",
+        "description": ""
+    },
+    "popup_sfmState_CHANNEL_DEPENDENT": {
+        "message": "SFM channel-dependent",
+        "description": ""
+    },
+    "popup_sfmState_CHANNEL_DEPENDENT_tooltip": {
+        "message": "Spoiler-Free Mode is active on selected channels",
+        "description": ""
+    },
+    "popup_sfmEnabled": {
+        "message": "Enable Spoiler-Free Mode",
+        "description": ""
+    },
+    "popup_sfmEnabled_global": {
+        "message": "Global",
+        "description": ""
+    },
+    "popup_sfmEnabled_global_NEVER": {
+        "message": "Never",
+        "description": ""
+    },
+    "popup_sfmEnabled_global_ALWAYS": {
+        "message": "Always",
+        "description": ""
+    },
+    "popup_sfmEnabled_global_CUSTOM": {
+        "message": "Platform-dependent",
+        "description": ""
+    },
+    "popup_sfmEnabled_onPlatform_NEVER": {
+        "message": "Never",
+        "description": ""
+    },
+    "popup_sfmEnabled_onPlatform_ALWAYS": {
+        "message": "Always",
+        "description": ""
+    },
+    "popup_sfmEnabled_onPlatform_CUSTOM": {
+        "message": "Channel-dependent",
+        "description": ""
+    },
+    "popup_sfmEnabled_onChannel_enable": {
+        "message": "Enable",
+        "description": ""
+    },
+    "popup_sfmEnabled_ineffective_disabledGlobally": {
+        "message": "Spoiler-Free Mode is disabled on the global level.",
+        "description": ""
+    },
+    "popup_sfmEnabled_ineffective_enabledGlobally": {
+        "message": "Spoiler-Free Mode is enabled on the global level.",
+        "description": ""
+    },
+    "popup_sfmEnabled_ineffective_disabledOnPlatform": {
+        "message": "Spoiler-Free Mode is disabled on the platform level.",
+        "description": ""
+    },
+    "popup_sfmEnabled_ineffective_enabledOnPlatform": {
+        "message": "Spoiler-Free Mode is enabled on the platform level.",
+        "description": ""
+    },
+    "popup_openOptions": {
+        "message": "Options...",
+        "description": "Label of the Options... button on the popup menu."
+    },
+    "options_title": {
+        "message": "Open End Options",
+        "description": ""
+    },
+    "options_sfmEnabled": {
+        "message": "Enable Spoiler-Free Mode",
+        "description": ""
+    },
+    "options_sfmEnabled_global": {
+        "message": "Global",
+        "description": ""
+    },
+    "options_sfmEnabled_global_NEVER": {
+        "message": "Never",
+        "description": ""
+    },
+    "options_sfmEnabled_global_ALWAYS": {
+        "message": "Always",
+        "description": ""
+    },
+    "options_sfmEnabled_global_CUSTOM": {
+        "message": "Platform-dependent",
+        "description": ""
+    },
+    "options_sfmEnabled_platforms": {
+        "message": "Per platform",
+        "description": ""
+    },
+    "options_sfmEnabled_onPlatform_NEVER": {
+        "message": "Never",
+        "description": ""
+    },
+    "options_sfmEnabled_onPlatform_ALWAYS": {
+        "message": "Always",
+        "description": ""
+    },
+    "options_sfmEnabled_onPlatform_CUSTOM": {
+        "message": "Channel-dependent",
+        "description": ""
+    },
+    "options_sfmEnabled_channels": {
+        "message": "Enable on the following channels",
+        "description": "Label of the Channels text area tooltip."
+    },
+    "options_sfmEnabled_channelToAdd": {
+        "message": "Qualified name or URL",
+        "description": "The label for the channel's qualified name or URL input."
+    },
+    "options_sfmEnabled_channelToAdd_placeholder": {
+        "message": "e.g. twitch.tv/overwatchleague",
+        "description": "The placeholder for the channel's qualified name or URL input."
+    },
+    "options_sfmEnabled_addChannel": {
+        "message": "Add channel",
+        "description": "Label of the Add Channel button."
+    },
+    "options_sfmEnabled_removeChannels": {
+        "message": "Remove selected channels",
+        "description": "Label of the Remove Channels button."
+    },
+    "options_sfmCfg": {
+        "message": "Customize Spoiler-Free Mode",
+        "description": "Label of the Configure Spoiler-Free Mode options section."
+    },
+    "options_sfmCfg_player": {
+        "message": "Video player",
+        "description": "Label of the Player options sub-section."
+    },
+    "options_sfmCfg_player_hideDuration": {
+        "message": "Hide the video duration",
+        "description": "Label of the Hide Duration option."
+    },
+    "options_sfmCfg_player_jumpDistance": {
+        "message": "Time jump distance",
+        "description": "Label of the Jump Distance option."
+    },
+    "options_sfmCfg_player_jumpDistance_placeholder": {
+        "message": "e.g. 1h2m3s",
+        "description": "Placeholder of the Jump Distance option."
+    },
+    "options_sfmCfg_videoList": {
+        "message": "Items in video lists",
+        "description": "Label of the Video List options sub-section."
+    },
+    "options_sfmCfg_videoList_hideTitle": {
+        "message": "Hide the video title",
+        "description": "Label of the Hide Title option."
+    },
+    "options_sfmCfg_videoList_hidePreview": {
+        "message": "Hide the video preview",
+        "description": "Label of the Hide Preview option."
+    },
+    "options_sfmCfg_videoList_hideDuration": {
+        "message": "Hide the video duration",
+        "description": "Label of the Hide Duration option."
+    },
+    "options_general": {
+        "message": "General",
+        "description": "Label of the General options section."
+    },
+    "options_general_theatreMode": {
+        "message": "Start videos in theatre mode",
+        "description": "Label of the Player: Theatre Mode option."
+    },
+    "options_save": {
+        "message": "Save",
+        "description": "Label of the Save button."
+    },
+    "options_save_successMsg": {
+        "message": "Options saved.",
+        "description": "Message to be displayed after a successful Save action."
+    },
+    "options_save_errorMsg": {
+        "message": "Save options failed.",
+        "description": "Message to be displayed after a failed Save action."
+    },
+    "options_restoreDefaults": {
+        "message": "Restore defaults",
+        "description": "Label of the Restore Defaults button."
+    },
+    "options_restoreDefaults_successMsg": {
+        "message": "Restored default options.",
+        "description": "Message to be displayed after a successful Restore Defaults action."
+    },
+    "hello": {
+        "message": "Hello, $USER$",
+        "description": "Greet the user",
+        "placeholders": {
+            "user": {
+                "content": "$1",
+                "example": "Cira"
+            }
+        }
+    },
+    "bye": {
+        "message": "Goodbye, $USER$. Come back to $OUR_SITE$ soon!",
+        "description": "Say goodbye to the user",
+        "placeholders": {
+            "our_site": {
+                "content": "Example.com"
+            },
+            "user": {
+                "content": "$1",
+                "example": "Cira"
+            }
+        }
+    }
+}
