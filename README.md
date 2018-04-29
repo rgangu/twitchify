@@ -1,4 +1,4 @@
-# Open End
+# Twitchify
 Chrome extension that hides the duration of videos and other information on Twitch.tv to prevent spoilers when watching e-sports or sports videos.
 
 # Table of Contents  
