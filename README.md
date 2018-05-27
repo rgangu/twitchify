@@ -1,5 +1,5 @@
 # Twitchify
-Chrome extension that hides the duration of videos and other information on Twitch.tv to prevent spoilers when watching e-sports or sports videos.
+Chrome extension that hides the duration of videos and other information on Twitch to prevent spoilers when watching e-sports or sports videos.
 
 # Table of Contents  
 1. [Description](#1-description)  
@@ -15,13 +15,12 @@ Chrome extension that hides the duration of videos and other information on Twit
 Sometimes you can't or don't want to watch a e-sports or sports event live. But when you are watching the videos later, the titles, previews or durations of videos can often give away the ending. For example, if you are watching a best-of-3 series and the video has almost reached its end during second match, you know that it will be a 2:0 victory.
 Or if you are scrolling through a video list to find the semifinals videos and accidentally read the finalists names in the grand final video title, the excitement for the semifinals quickly fades away.
 
-Open End prevents those kinds of spoilers by hiding certain information on Twitch.tv. Its features include:
+Twitchify prevents those kinds of spoilers by hiding certain information on Twitch. Its features include:
 
 ### 1.1 Installation
 You can install it via the Chrome Web Store:
 
-https://chrome.google.com/webstore/detail/open-end/bgajbplcmfhpfebhiigohjannldlolpf
-
+[link here](https://www.google.com)
 ## 2. Features
 ### 2.1 Main Feature: Spoiler-Free Mode
 - Hides the progress and duration of the video you are currently watching.
@@ -36,12 +35,11 @@ https://chrome.google.com/webstore/detail/open-end/bgajbplcmfhpfebhiigohjannldlo
 - The visibility of any hideable element can be toggled directly on the page (no need to refresh the page)
 - Option changes are directly applied (no need to refresh the page).
 - Auto-enter the Theatre Mode.
-- 100% compatible with [Better Twitch TV](https://chrome.google.com/webstore/detail/betterttv/ajopnjidmegmdimjlfnijceegpefgped).
 
 ## 3. Usage
 
 ### 3.1 Overview
-- **Open End icon / Popup:** The extension has an icon in the Chrome toolbar (next to the address bar). If you click on it, a popup opens. The icon and the popup have two purposes:
+- **Twitchify icon / Popup:** The extension has an icon in the Chrome toolbar (next to the address bar). If you click on it, a popup opens. The icon and the popup have two purposes:
   1. Inform you:
      - Whether the current web page is a supported video platform.
        - On supported platforms the icon is colored, otherwise it is grey.
@@ -131,19 +129,6 @@ There is only **limited** support for MLG.com and overwatchleague.com (which use
 - Only the hiding of the seek bar and video duration of currently played videos is supported.
   - No Video Navigation Toolbar is provided.
 
-## 5. Version Notes and Roadmap
-[See here](docs/VERSION_NOTES.md)
-
-## 6. Contact
-If you have questions or feature requests you can contact me:
-- Mail: [snowwits@gmail.com](mailto:snowwits@gmail.com)
-- Reddit: [/u/snowwits](https://www.reddit.com/user/snowwits)
-- Twitter: [@snowwits](https://twitter.com/snowwits)
-  - Follow to receive update news
-
-## 7. License
+## 5. License
 Exclusive copyright for now.
 
-## 8. Credits
-- Google: Material Design icons
-  - https://www.flaticon.com/packs/material-design
