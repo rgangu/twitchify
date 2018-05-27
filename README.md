@@ -6,10 +6,7 @@ Chrome extension that hides the duration of videos and other information on Twit
 2. [Features](#2-features)
 3. [Usage](#3-usage)
 4. [Supported Video Platforms](#4-supported-video-platforms)
-5. [Version Notes and Roadmap](#5-version-notes-and-roadmap)
-6. [Contact](#6-contact)
-7. [License](#7-license)
-8. [Credits](#8-credits)
+5. [License](#5-license)
 
 ## 1. Description 
 Sometimes you can't or don't want to watch a e-sports or sports event live. But when you are watching the videos later, the titles, previews or durations of videos can often give away the ending. For example, if you are watching a best-of-3 series and the video has almost reached its end during second match, you know that it will be a 2:0 victory.
